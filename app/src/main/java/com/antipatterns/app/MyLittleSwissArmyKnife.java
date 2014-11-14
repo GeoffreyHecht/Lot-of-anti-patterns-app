@@ -3,7 +3,7 @@ package com.antipatterns.app;
 /**
  * Created by geoffrey on 10/11/14.
  */
-public class MySwissArmyKnife implements interface1,interface2,interface3,interface4,interface5,interface6,interface7,interface8 {
+public class MyLittleSwissArmyKnife implements interface1,interface2,interface3,interface4,interface5 {
     public String aMethod(String arg){
         return arg;
     }
@@ -32,30 +32,15 @@ public class MySwissArmyKnife implements interface1,interface2,interface3,interf
         return null;
     }
 
-    @Override
     public String method6() {
         return null;
     }
 
-    @Override
     public String method7() {
         return null;
     }
 
-    @Override
     public String method9() {
         return null;
-    }
-
-    class AnotherInnnerClass{
-        private String afield;
-
-        public String getAfield() {
-            return afield;
-        }
-
-        public void setAfield(String afield) {
-            this.afield = afield;
-        }
     }
 }

@@ -29,6 +29,18 @@ public class OtherActivity extends Activity {
         }
     }
 
+    class AnotherInnnerClass{
+        private String afield;
+
+        public String getAfield() {
+            return afield;
+        }
+
+        public void setAfield(String afield) {
+            this.afield = afield;
+        }
+    }
+
     @Override
     public void onLowMemory(){
         myfield = "b";
