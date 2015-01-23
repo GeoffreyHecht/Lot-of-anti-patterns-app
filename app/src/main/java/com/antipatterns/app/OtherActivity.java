@@ -14,10 +14,18 @@ public class OtherActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         myfield = "a";
+        MyNonStaticLeakingInnerClass myNonStaticLeakingInnerClass = new MyNonStaticLeakingInnerClass();
+        myNonStaticLeakingInnerClass.setAfield(myNonStaticLeakingInnerClass.getAfield() + "a");
+
+        AnotherInnnerClass myClass = new AnotherInnnerClass();
+        myClass.setAfield(myClass.getAfield() + "a");
+
+        AStaticInnnerClass myClass2 = new AStaticInnnerClass();
+        myClass2.setAfield(myClass2.getAfield() + "a");
 
     }
 
-    class myNonStaticLeakingInnerClass{
+    class MyNonStaticLeakingInnerClass{
         private String afield;
 
         public String getAfield() {
@@ -41,9 +49,22 @@ public class OtherActivity extends Activity {
         }
     }
 
+    static class AStaticInnnerClass{
+        private String afield;
+
+        public String getAfield() {
+            return afield;
+        }
+
+        public void setAfield(String afield) {
+            this.afield = afield;
+        }
+    }
+
     @Override
     public void onLowMemory(){
         myfield = "b";
+        setMyfield(myfield);
     }
 
     public String getMyfield() {
@@ -54,8 +75,9 @@ public class OtherActivity extends Activity {
         this.myfield = myfield;
     }
 
-    public void methodUsingInternalgetter(){
+    public String methodUsingInternalgetter(){
         String c = getMyfield();
         c = c + "a";
+        return c;
     }
 }

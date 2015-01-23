@@ -6,11 +6,12 @@ import android.os.Bundle;
 /**
  * NoLowMemoryResolver should  be find here.
  */
-public class aActivity extends Activity {
+public class AActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
     }
 
 }

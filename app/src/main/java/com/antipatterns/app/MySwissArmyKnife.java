@@ -3,48 +3,51 @@ package com.antipatterns.app;
 /**
  * Created by geoffrey on 10/11/14.
  */
-public class MySwissArmyKnife implements interface1,interface2,interface3,interface4,interface5,interface6,interface7,interface8 {
+public class MySwissArmyKnife implements Interface1,Interface2,Interface3,Interface4,Interface5,Interface6,Interface7,Interface8 {
     public String aMethod(String arg){
+        arg = arg + "a";
         return arg;
     }
     @Override
     public String method1() {
-        return null;
+        return aMethod("agfggbsd");
     }
 
     @Override
     public String method2() {
-        return null;
+        return aMethod("asfbsd");
     }
 
     @Override
     public String method3() {
-        return null;
+        return aMethod("abbsd");
     }
 
     @Override
     public String method4() {
-        return null;
+        return aMethod("abazesd");
     }
 
     @Override
     public String method5() {
-        return null;
+        return aMethod("agfbsd");
     }
 
     @Override
     public String method6() {
-        return null;
+        return aMethod("absfdqd");
     }
 
     @Override
     public String method7() {
-        return null;
+        return aMethod("abssdd");
     }
 
     @Override
-    public String method9() {
-        return null;
+    public String method8() {
+        AnotherInnnerClass anotherInnnerClass = new AnotherInnnerClass();
+        anotherInnnerClass.setAfield(anotherInnnerClass.getAfield() + "a");
+        return aMethod("absdqs");
     }
 
     class AnotherInnnerClass{

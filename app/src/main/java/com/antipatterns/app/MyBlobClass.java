@@ -1,5 +1,7 @@
 package com.antipatterns.app;
 
+import android.os.Bundle;
+
 /**
  * Created by geoffrey on 10/11/14.
  */
@@ -20,8 +22,9 @@ public class MyBlobClass {
     private String attr13;
     private String attr14;
 
-    public void averyComplexandLongMethod(){
+    public String averyComplexandLongMethod(){
         String abc = "abc";
+        mySwissArmyKnife = new MySwissArmyKnife();
         abc = abc + abc;
         if(abc.equals("bcqfqe")){
             abc = abc + abc;
@@ -118,87 +121,228 @@ public class MyBlobClass {
             }
         }
         mySwissArmyKnife.aMethod(abc);
+        mySwissArmyKnife.method1();
+        mySwissArmyKnife.method2();
+        mySwissArmyKnife.method3();
+        mySwissArmyKnife.method4();
+        mySwissArmyKnife.method5();
+        mySwissArmyKnife.method6();
+        mySwissArmyKnife.method7();
+        mySwissArmyKnife.method8();
+        aBadMethod1();
+        aBadMethod2();
+        aBadMethod3();
+        aBadMethod4();
+        aBadMethod5();
+        aBadMethod6();
+        aBadMethod7();
+        aBadMethod8();
+        aBadMethod9();
+        aBadMethod10();
+        aaBadMethod1();
+        aaBadMethod2();
+        aaBadMethod3();
+        aaBadMethod4();
+        aaBadMethod5();
+        aaBadMethod6();
+        aaBadMethod7();
+        aaBadMethod8();
+        aaBadMethod9();
+        aaBadMethod10();
+        setAttr1(getAttr1());
+        setAttr2(getAttr2());
+        setAttr3(getAttr3());
+        setAttr4(getAttr4());
+        setAttr5(getAttr5());
+        setAttr6(getAttr6());
+        setAttr7(getAttr7());
+        setAttr8(getAttr8());
+        setAttr9(getAttr9());
+        setAttr10(getAttr10());
+        setAttr11(getAttr11());
+        setAttr12(getAttr12());
+        setAttr13(getAttr13());
+        setAttr14(getAttr14());
+        ComplexClass complexClass = new ComplexClass();
+        complexClass.averyComplexandLongMethod();
+        complexClass.theSameVeryComplexandLongMethod();
+        complexClass.whileVeryComplexandLongMethod();
+        Interface1 inter = new MyLittleSwissArmyKnife();
+        inter.method1();
+        Interface2 inter2 = new MyLittleSwissArmyKnife();
+        inter2.method2();
+        Interface3 inter3 = new MyLittleSwissArmyKnife();
+        inter3.method3();
+        Interface4 inter4 = new MyLittleSwissArmyKnife();
+        inter4.method4();
+        Interface5 inter5 = new MyLittleSwissArmyKnife();
+        inter5.method5();
+        Interface6 inter6 = new MySwissArmyKnife();
+        inter6.method6();
+        Interface7 inter7 = new MySwissArmyKnife();
+        inter7.method7();
+        Interface8 inter8 = new MySwissArmyKnife();
+        inter8.method8();
+        AActivity AActivity = new AActivity();
+        AActivity.onCreate(new Bundle());
+        ABigClass aBigClass = new ABigClass();
+        aBigClass.setAttr1(abc);
+        aBigClass.setAttr2(abc);
+        aBigClass.setAttr3(abc);
+        aBigClass.setAttr4(abc);
+        aBigClass.setAttr5(abc);
+        aBigClass.setAttr6(abc);
+        aBigClass.setAttr7(abc);
+        aBigClass.setAttr8(abc);
+        aBigClass.setAttr9(abc);
+        aBigClass.setAttr10(abc);
+        aBigClass.setAttr11(abc);
+        aBigClass.setAttr12(abc);
+        aBigClass.setAttr13(abc);
+        aBigClass.setAttr14(abc);
+        abc += aBigClass.getAttr1();
+        abc += aBigClass.getAttr2();
+        abc += aBigClass.getAttr3();
+        abc += aBigClass.getAttr4();
+        abc += aBigClass.getAttr5();
+        abc += aBigClass.getAttr6();
+        abc += aBigClass.getAttr7();
+        abc += aBigClass.getAttr8();
+        abc += aBigClass.getAttr9();
+        abc += aBigClass.getAttr10();
+        abc += aBigClass.getAttr11();
+        abc += aBigClass.getAttr12();
+        abc += aBigClass.getAttr13();
+        abc += aBigClass.getAttr14();
+        AnotherSwissArmyKnife anotherSwissArmyKnife = new AnotherSwissArmyKnife();
+        anotherSwissArmyKnife.method1();
+        anotherSwissArmyKnife.method2();
+        anotherSwissArmyKnife.method3();
+        anotherSwissArmyKnife.method4();
+        CC cc = new CC();
+        abc += cc.averyComplexandLongMethod();
+        return abc;
     }
 
     public String aBadMethod1(){
         ADataClass1 aDataClass = new ADataClass1();
+        aDataClass.setMyData("abc");
+        aDataClass.setMyData2("abc");
         return aDataClass.getMyData();
     }
     public String aBadMethod2(){
         ADataClass2 aDataClass = new ADataClass2();
+        aDataClass.setMyData("abc");
+        aDataClass.setMyData2("abc");
         return aDataClass.getMyData();
     }
     public String aBadMethod3(){
         ADataClass3 aDataClass = new ADataClass3();
+        aDataClass.setMyData("abc");
+        aDataClass.setMyData2("abc");
         return aDataClass.getMyData();
     }
     public String aBadMethod4(){
         ADataClass4 aDataClass = new ADataClass4();
+        aDataClass.setMyData("abc");
+        aDataClass.setMyData2("abc");
         return aDataClass.getMyData();
     }
     public String aBadMethod5(){
         ADataClass5 aDataClass = new ADataClass5();
+        aDataClass.setMyData("abc");
+        aDataClass.setMyData2("abc");
         return aDataClass.getMyData();
     }
     public String aBadMethod6(){
         ADataClass6 aDataClass = new ADataClass6();
+        aDataClass.setMyData("abc");
+        aDataClass.setMyData2("abc");
         return aDataClass.getMyData();
     }
     public String aBadMethod7(){
         ADataClass7 aDataClass = new ADataClass7();
+        aDataClass.setMyData("abc");
+        aDataClass.setMyData2("abc");
         return aDataClass.getMyData();
     }
     public String aBadMethod8(){
         ADataClass8 aDataClass = new ADataClass8();
+        aDataClass.setMyData("abc");
+        aDataClass.setMyData2("abc");
         return aDataClass.getMyData();
     }
     public String aBadMethod9(){
         ADataClass9 aDataClass = new ADataClass9();
+        aDataClass.setMyData("abc");
+        aDataClass.setMyData2("abc");
         return aDataClass.getMyData();
     }
     public String aBadMethod10(){
         ADataClass10 aDataClass = new ADataClass10();
+        aDataClass.setMyData("abc");
+        aDataClass.setMyData2("abc");
         return aDataClass.getMyData();
     }
 
     public String aaBadMethod1(){
         ADataClass1 aDataClass = new ADataClass1();
+        aDataClass.setMyData("abc");
+        aDataClass.setMyData2("abc");
         return aDataClass.getMyData2();
     }
     public String aaBadMethod2(){
         ADataClass2 aDataClass = new ADataClass2();
+        aDataClass.setMyData("abc");
+        aDataClass.setMyData2("abc");
         return aDataClass.getMyData2();
     }
     public String aaBadMethod3(){
         ADataClass3 aDataClass = new ADataClass3();
+        aDataClass.setMyData("abc");
+        aDataClass.setMyData2("abc");
         return aDataClass.getMyData2();
     }
     public String aaBadMethod4(){
         ADataClass4 aDataClass = new ADataClass4();
+        aDataClass.setMyData("abc");
+        aDataClass.setMyData2("abc");
         return aDataClass.getMyData2();
     }
     public String aaBadMethod5(){
         ADataClass5 aDataClass = new ADataClass5();
+        aDataClass.setMyData("abc");
+        aDataClass.setMyData2("abc");
         return aDataClass.getMyData2();
     }
     public String aaBadMethod6(){
         ADataClass6 aDataClass = new ADataClass6();
+        aDataClass.setMyData("abc");
+        aDataClass.setMyData2("abc");
         return aDataClass.getMyData2();
     }
     public String aaBadMethod7(){
         ADataClass7 aDataClass = new ADataClass7();
+        aDataClass.setMyData("abc");
+        aDataClass.setMyData2("abc");
         return aDataClass.getMyData2();
     }
     public String aaBadMethod8(){
         ADataClass8 aDataClass = new ADataClass8();
+        aDataClass.setMyData("abc");
+        aDataClass.setMyData2("abc");
         return aDataClass.getMyData2();
     }
     public String aaBadMethod9(){
         ADataClass9 aDataClass = new ADataClass9();
+        aDataClass.setMyData("abc");
+        aDataClass.setMyData2("abc");
         return aDataClass.getMyData2();
     }
     public String aaBadMethod10(){
         ADataClass10 aDataClass = new ADataClass10();
+        aDataClass.setMyData("abc");
+        aDataClass.setMyData2("abc");
         return aDataClass.getMyData2();
     }
 

@@ -5,7 +5,7 @@ package com.antipatterns.app;
  */
 public class CC {
 
-    public void averyComplexandLongMethod(){
+    public String averyComplexandLongMethod(){
         String abc = "abc";
         abc = abc + abc;
         if(abc.equals("bcqfqe")){
@@ -102,10 +102,10 @@ public class CC {
                 abc = "rgf";
             }
         }
+        return theSameVeryComplexandLongMethod(abc);
     }
 
-    public void theSameVeryComplexandLongMethod(){
-        String abc = "abc";
+    public String theSameVeryComplexandLongMethod(String abc){
         abc = abc + abc;
         if(abc.equals("bcqfqe")){
             abc = abc + abc;
@@ -201,64 +201,6 @@ public class CC {
                 abc = "rgf";
             }
         }
+        return abc;
     }
-
-   public void forMethod(){
-       int a = 0;
-       for(int i=0;i>100;i++){
-            a++;
-            a--;
-       }
-       for(int i=0;i>100;i++){
-           a++;
-           a--;
-       }
-       for(int i=0;i>100;i++){
-           a++;
-           a--;
-       }
-       for(int i=0;i>100;i++){
-           a++;
-           a--;
-       }
-       for(int i=0;i>100;i++){
-           a++;
-           a--;
-       }
-       for(int i=0;i>100;i++){
-           a++;
-           a--;
-       }
-       for(int i=0;i>100;i++){
-           a++;
-           a--;
-       }
-       for(int i=0;i>100;i++){
-           a++;
-           a--;
-       }
-       for(int i=0;i>100;i++){
-           a++;
-           a--;
-       }
-       for(int i=0;i>100;i++){
-           a++;
-           a--;
-       }for(int i=0;i>100;i++){
-           a++;
-           a--;
-       }
-       for(int i=0;i>100;i++){
-           a++;
-           a--;
-       }
-       for(int i=0;i>100;i++){
-           a++;
-           a--;
-       }
-       for(int i=0;i>100;i++){
-           a++;
-           a--;
-       }
-   }
 }

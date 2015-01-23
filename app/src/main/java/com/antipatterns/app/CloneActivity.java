@@ -14,9 +14,12 @@ public class CloneActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         myfield = "a";
+        MyLittleSwissArmyKnife myLittleSwissArmyKnife = new MyLittleSwissArmyKnife();
+        myLittleSwissArmyKnife.aMethod(myfield);
         MyBlobClass myBlobClass = new MyBlobClass();
         myBlobClass.averyComplexandLongMethod();
         AnotherActivity anotherActivity = new AnotherActivity();
+        anotherActivity.amethod();
         OtherActivity otherActivity = new OtherActivity();
         otherActivity.methodUsingInternalgetter();
     }

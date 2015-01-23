@@ -102,6 +102,10 @@ public class ComplexClass {
                 abc = "rgf";
             }
         }
+        AnotherInnnerClass anotherInnnerClass = new AnotherInnnerClass();
+        abc += anotherInnnerClass.getAfield();
+        anotherInnnerClass.setAfield(abc);
+        theSameVeryComplexandLongMethod();
     }
 
     class AnotherInnnerClass{
