@@ -1,6 +1,7 @@
 package com.antipatterns.app;
 
 import android.app.Activity;
+import android.app.AlarmManager;
 import android.os.Bundle;
 
 /**
@@ -26,6 +27,10 @@ public class MainActivity extends Activity {
         otherActivity.onLowMemory();
         CloneActivity cloneActivity = new CloneActivity();
         cloneActivity.onCreate(savedInstanceState);
+        Test test = new Test();
+        test.method2();
+        NotSoGoodView notSoGoodView = new NotSoGoodView(this.getApplicationContext());
+        notSoGoodView.invalidate();
     }
 
 }

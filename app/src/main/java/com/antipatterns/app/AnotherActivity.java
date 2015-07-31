@@ -17,4 +17,13 @@ public class AnotherActivity extends OtherActivity {
         return "a";
     }
 
+    /**
+     * No MIM here (override)
+     * @return
+     */
+    public String methodUsingInternalgetter(){
+       return "a";
+    }
+
+
 }

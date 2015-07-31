@@ -1,7 +1,9 @@
 package com.antipatterns.app;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
+import android.os.PowerManager;
 
 /**
  * NoLowMemoryResolver should not be find here.
@@ -22,6 +24,10 @@ public class OtherActivity extends Activity {
 
         AStaticInnnerClass myClass2 = new AStaticInnnerClass();
         myClass2.setAfield(myClass2.getAfield() + "a");
+
+        PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
+        PowerManager.WakeLock mWakeLock = pm.newWakeLock(PowerManager.SCREEN_DIM_WAKE_LOCK | PowerManager.ON_AFTER_RELEASE, "My Tag");
+        mWakeLock.acquire(100);
 
     }
 
