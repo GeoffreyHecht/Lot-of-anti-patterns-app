@@ -1,6 +1,27 @@
 package com.antipatterns.app;
 
-import android.os.Bundle;
+import com.antipatterns.app.activities.AActivity;
+import com.antipatterns.app.data.ADataClass1;
+import com.antipatterns.app.data.ADataClass10;
+import com.antipatterns.app.data.ADataClass2;
+import com.antipatterns.app.data.ADataClass3;
+import com.antipatterns.app.data.ADataClass4;
+import com.antipatterns.app.data.ADataClass5;
+import com.antipatterns.app.data.ADataClass6;
+import com.antipatterns.app.data.ADataClass7;
+import com.antipatterns.app.data.ADataClass8;
+import com.antipatterns.app.data.ADataClass9;
+import com.antipatterns.app.interfaces.Interface1;
+import com.antipatterns.app.interfaces.Interface2;
+import com.antipatterns.app.interfaces.Interface3;
+import com.antipatterns.app.interfaces.Interface4;
+import com.antipatterns.app.interfaces.Interface5;
+import com.antipatterns.app.interfaces.Interface6;
+import com.antipatterns.app.interfaces.Interface7;
+import com.antipatterns.app.interfaces.Interface8;
+import com.antipatterns.app.sak.AnotherSwissArmyKnife;
+import com.antipatterns.app.sak.MyLittleSwissArmyKnife;
+import com.antipatterns.app.sak.MySwissArmyKnife;
 
 /**
  * Created by geoffrey on 10/11/14.
@@ -184,7 +205,6 @@ public class MyBlobClass {
         Interface8 inter8 = new MySwissArmyKnife();
         inter8.method8();
         AActivity AActivity = new AActivity();
-        AActivity.onCreate(new Bundle());
         ABigClass aBigClass = new ABigClass();
         aBigClass.setAttr1(abc);
         aBigClass.setAttr2(abc);

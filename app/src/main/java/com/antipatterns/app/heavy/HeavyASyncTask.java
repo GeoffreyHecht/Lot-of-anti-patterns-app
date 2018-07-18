@@ -1,131 +1,14 @@
-package com.antipatterns.app;
+package com.antipatterns.app.heavy;
 
-import com.antipatterns.app.activities.AnotherActivity;
+import android.os.AsyncTask;
 
 /**
- * Created by geoffrey on 10/11/14.
+ * Created by geoffrey on 05/05/15.
  */
-public class ComplexClass {
+public class HeavyASyncTask extends AsyncTask {
 
-    public void averyComplexandLongMethod(){
-        String abc = "abc";
-        abc = abc + abc;
-        if(abc.equals("bcqfqe")){
-            abc = abc + abc;
-            if(abc.equals("udf")){
-                abc = "erg";
-            }else{
-                abc = "rgf";
-            }
-        }
-        if(abc.equals("bcqfde"))
-        abc = abc + abc;
-        if(abc.equals("bcqfqe")){
-            abc = abc + abc;
-            if(abc.equals("udf")){
-                abc = "erg";
-            }else{
-                abc = "rgf";
-            }
-        }
-        if(abc.equals("bqfsce"))
-        abc = abc + abc;
-        if(abc.equals("bqfdqsce"))
-        abc = abc + abc;
-        if(abc.equals("bsfqce"))
-        abc = abc + abc;
-        if(abc.equals("bfsfce"))
-        abc = abc + abc;
-        if(abc.equals("bcqfqe")){
-            abc = abc + abc;
-            if(abc.equals("udf")){
-                abc = "erg";
-            }else{
-                abc = "rgf";
-            }
-        }
-        if(abc.equals("bqdqdce"))
-        abc = abc + abc;
-        if(abc.equals("bcqsdqe"))
-        abc = abc + abc;
-        if(abc.equals("bcqde"))
-        abc = abc + abc;
-        if(abc.equals("bdsf"))
-        abc = abc + abc;
-        if(abc.equals("aze"))
-        abc = abc + abc;
-        if(abc.equals("eae"))
-        abc = abc + abc;
-        if(abc.equals("bcqfqe")){
-            abc = abc + abc;
-            if(abc.equals("udf")){
-                abc = "erg";
-            }else{
-                abc = "rgf";
-            }
-        }
-        if(abc.equals("zae"))
-        abc = abc + abc;
-        if(abc.equals("abc"))
-        abc = abc + abc;
-        if(abc.equals("bazce"))
-        abc = abc + abc;
-        if(abc.equals("bsdqsdce"))
-        abc = abc + abc;
-        if(abc.equals("bczaee"))
-        abc = abc + abc;
-        if(abc.equals("bcqfqe")){
-            abc = abc + abc;
-            if(abc.equals("udf")){
-                abc = "erg";
-            }else{
-                abc = "rgf";
-            }
-        }
-        if(abc.equals("ce"))
-        abc = abc + abc;
-        if(abc.equals("bcqfqe")){
-            abc = abc + abc;
-            if(abc.equals("udf")){
-                abc = "erg";
-            }else{
-                abc = "rgf";
-            }
-        }
-        if(abc.equals("bz"))
-        abc = abc + abc;
-        if(abc.equals("bcza"))
-        abc = abc + abc;
-        if(abc.equals("bcqfqe")){
-            abc = abc + abc;
-            if(abc.equals("udf")){
-                abc = "erg";
-            }else{
-                abc = "rgf";
-            }
-        }
-        AnotherInnnerClass anotherInnnerClass = new AnotherInnnerClass();
-        abc += anotherInnnerClass.getAfield();
-        anotherInnnerClass.setAfield(abc);
-        theSameVeryComplexandLongMethod();
-    }
-
-    class AnotherInnnerClass{
-        private String afield;
-
-        public String getAfield() {
-            return afield;
-        }
-
-        public void setAfield(String afield) {
-            this.afield = afield;
-        }
-    }
-
-    public void theSameVeryComplexandLongMethod(){
-        new AnotherActivity(){
-
-        };
+    @Override
+    protected void onPreExecute() {
         String abc = "abc";
         abc = abc + abc;
         if(abc.equals("bcqfqe")){
@@ -224,88 +107,209 @@ public class ComplexClass {
         }
     }
 
-    public void whileVeryComplexandLongMethod(){
+    @Override
+    protected void onProgressUpdate(Object[] values) {
         String abc = "abc";
         abc = abc + abc;
-        while(abc.equals("bcqfqe")){
+        if(abc.equals("bcqfqe")){
             abc = abc + abc;
-            while(abc.equals("udf")){
+            if(abc.equals("udf")){
                 abc = "erg";
+            }else{
+                abc = "rgf";
             }
         }
-        while(abc.equals("bcqfde"))
+        if(abc.equals("bcqfde"))
             abc = abc + abc;
-        while(abc.equals("bcqfqe")){
+        if(abc.equals("bcqfqe")){
             abc = abc + abc;
-            while(abc.equals("udf")){
+            if(abc.equals("udf")){
                 abc = "erg";
+            }else{
+                abc = "rgf";
             }
         }
-        while(abc.equals("bqfsce"))
+        if(abc.equals("bqfsce"))
             abc = abc + abc;
-        while(abc.equals("bqfdqsce"))
+        if(abc.equals("bqfdqsce"))
             abc = abc + abc;
-        while(abc.equals("bsfqce"))
+        if(abc.equals("bsfqce"))
             abc = abc + abc;
-        while(abc.equals("bfsfce"))
+        if(abc.equals("bfsfce"))
             abc = abc + abc;
-        while(abc.equals("bcqfqe")){
+        if(abc.equals("bcqfqe")){
             abc = abc + abc;
-            while(abc.equals("udf")){
+            if(abc.equals("udf")){
                 abc = "erg";
+            }else{
+                abc = "rgf";
             }
         }
-        while(abc.equals("bqdqdce"))
+        if(abc.equals("bqdqdce"))
             abc = abc + abc;
-        while(abc.equals("bcqsdqe"))
+        if(abc.equals("bcqsdqe"))
             abc = abc + abc;
-        while(abc.equals("bcqde"))
+        if(abc.equals("bcqde"))
             abc = abc + abc;
-        while(abc.equals("bdsf"))
+        if(abc.equals("bdsf"))
             abc = abc + abc;
-        while(abc.equals("aze"))
+        if(abc.equals("aze"))
             abc = abc + abc;
-        while(abc.equals("eae"))
+        if(abc.equals("eae"))
             abc = abc + abc;
-        while(abc.equals("bcqfqe")){
+        if(abc.equals("bcqfqe")){
             abc = abc + abc;
-            while(abc.equals("udf")){
+            if(abc.equals("udf")){
                 abc = "erg";
+            }else{
+                abc = "rgf";
             }
         }
-        while(abc.equals("zae"))
+        if(abc.equals("zae"))
             abc = abc + abc;
-        while(abc.equals("abc"))
+        if(abc.equals("abc"))
             abc = abc + abc;
-        while(abc.equals("bazce"))
+        if(abc.equals("bazce"))
             abc = abc + abc;
-        while(abc.equals("bsdqsdce"))
+        if(abc.equals("bsdqsdce"))
             abc = abc + abc;
-        while(abc.equals("bczaee"))
+        if(abc.equals("bczaee"))
             abc = abc + abc;
-        while(abc.equals("bcqfqe")){
+        if(abc.equals("bcqfqe")){
             abc = abc + abc;
-            while(abc.equals("udf")){
+            if(abc.equals("udf")){
                 abc = "erg";
+            }else{
+                abc = "rgf";
             }
         }
-        while(abc.equals("ce"))
+        if(abc.equals("ce"))
             abc = abc + abc;
-        while(abc.equals("bcqfqe")){
+        if(abc.equals("bcqfqe")){
             abc = abc + abc;
-            while(abc.equals("udf")){
+            if(abc.equals("udf")){
                 abc = "erg";
+            }else{
+                abc = "rgf";
             }
         }
-        while(abc.equals("bz"))
+        if(abc.equals("bz"))
             abc = abc + abc;
-        while(abc.equals("bcza"))
+        if(abc.equals("bcza"))
             abc = abc + abc;
-        while(abc.equals("bcqfqe")){
+        if(abc.equals("bcqfqe")){
             abc = abc + abc;
-            while(abc.equals("udf")){
+            if(abc.equals("udf")){
                 abc = "erg";
+            }else{
+                abc = "rgf";
             }
         }
+    }
+
+    @Override
+    protected void onPostExecute(Object o) {
+        String abc = "abc";
+        abc = abc + abc;
+        if(abc.equals("bcqfqe")){
+            abc = abc + abc;
+            if(abc.equals("udf")){
+                abc = "erg";
+            }else{
+                abc = "rgf";
+            }
+        }
+        if(abc.equals("bcqfde"))
+            abc = abc + abc;
+        if(abc.equals("bcqfqe")){
+            abc = abc + abc;
+            if(abc.equals("udf")){
+                abc = "erg";
+            }else{
+                abc = "rgf";
+            }
+        }
+        if(abc.equals("bqfsce"))
+            abc = abc + abc;
+        if(abc.equals("bqfdqsce"))
+            abc = abc + abc;
+        if(abc.equals("bsfqce"))
+            abc = abc + abc;
+        if(abc.equals("bfsfce"))
+            abc = abc + abc;
+        if(abc.equals("bcqfqe")){
+            abc = abc + abc;
+            if(abc.equals("udf")){
+                abc = "erg";
+            }else{
+                abc = "rgf";
+            }
+        }
+        if(abc.equals("bqdqdce"))
+            abc = abc + abc;
+        if(abc.equals("bcqsdqe"))
+            abc = abc + abc;
+        if(abc.equals("bcqde"))
+            abc = abc + abc;
+        if(abc.equals("bdsf"))
+            abc = abc + abc;
+        if(abc.equals("aze"))
+            abc = abc + abc;
+        if(abc.equals("eae"))
+            abc = abc + abc;
+        if(abc.equals("bcqfqe")){
+            abc = abc + abc;
+            if(abc.equals("udf")){
+                abc = "erg";
+            }else{
+                abc = "rgf";
+            }
+        }
+        if(abc.equals("zae"))
+            abc = abc + abc;
+        if(abc.equals("abc"))
+            abc = abc + abc;
+        if(abc.equals("bazce"))
+            abc = abc + abc;
+        if(abc.equals("bsdqsdce"))
+            abc = abc + abc;
+        if(abc.equals("bczaee"))
+            abc = abc + abc;
+        if(abc.equals("bcqfqe")){
+            abc = abc + abc;
+            if(abc.equals("udf")){
+                abc = "erg";
+            }else{
+                abc = "rgf";
+            }
+        }
+        if(abc.equals("ce"))
+            abc = abc + abc;
+        if(abc.equals("bcqfqe")){
+            abc = abc + abc;
+            if(abc.equals("udf")){
+                abc = "erg";
+            }else{
+                abc = "rgf";
+            }
+        }
+        if(abc.equals("bz"))
+            abc = abc + abc;
+        if(abc.equals("bcza"))
+            abc = abc + abc;
+        if(abc.equals("bcqfqe")){
+            abc = abc + abc;
+            if(abc.equals("udf")){
+                abc = "erg";
+            }else{
+                abc = "rgf";
+            }
+        }
+    }
+
+
+    @Override
+    protected Object doInBackground(Object[] objects) {
+        return null;
     }
 }
