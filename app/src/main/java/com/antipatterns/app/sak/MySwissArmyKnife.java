@@ -12,11 +12,12 @@ import com.antipatterns.app.interfaces.Interface8;
 /**
  * Created by geoffrey on 10/11/14.
  */
-public class MySwissArmyKnife implements Interface1,Interface2,Interface3,Interface4,Interface5,Interface6,Interface7,Interface8 {
-    public String aMethod(String arg){
+public class MySwissArmyKnife implements Interface1, Interface2, Interface3, Interface4, Interface5, Interface6, Interface7, Interface8 {
+    public String aMethod(String arg) {
         arg = arg + "a";
         return arg;
     }
+
     @Override
     public String method1() {
         return aMethod("agfggbsd");
@@ -59,7 +60,7 @@ public class MySwissArmyKnife implements Interface1,Interface2,Interface3,Interf
         return aMethod("absdqs");
     }
 
-    class AnotherInnnerClass{
+    class AnotherInnnerClass {
         private String afield;
 
         public String getAfield() {

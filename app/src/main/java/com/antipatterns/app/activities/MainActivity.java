@@ -6,9 +6,7 @@ import android.os.Bundle;
 import com.antipatterns.app.MyBlobClass;
 import com.antipatterns.app.views.NotSoGoodView;
 
-/**
- * NLMR should be found here.
- */
+// NLMR
 public class MainActivity extends Activity {
 
     private String myfield;

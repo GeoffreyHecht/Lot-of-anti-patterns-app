@@ -9,11 +9,12 @@ import com.antipatterns.app.interfaces.Interface5;
 /**
  * Created by geoffrey on 10/11/14.
  */
-public class MyLittleSwissArmyKnife implements Interface1,Interface2,Interface3,Interface4,Interface5 {
-    public String aMethod(String arg){
+public class MyLittleSwissArmyKnife implements Interface1, Interface2, Interface3, Interface4, Interface5 {
+    public String aMethod(String arg) {
         arg = arg + "b";
         return arg;
     }
+
     @Override
     public String method1() {
         return aMethod("abc");

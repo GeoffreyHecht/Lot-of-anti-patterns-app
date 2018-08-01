@@ -11,6 +11,7 @@ import android.os.PowerManager;
 public class OtherActivity extends Activity {
 
     private String myfield;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,7 +31,7 @@ public class OtherActivity extends Activity {
 
     }
 
-    class MyNonStaticLeakingInnerClass{
+    class MyNonStaticLeakingInnerClass {
         private String afield;
 
         public String getAfield() {
@@ -42,7 +43,7 @@ public class OtherActivity extends Activity {
         }
     }
 
-    class AnotherInnnerClass{
+    class AnotherInnnerClass {
         private String afield;
 
         public String getAfield() {
@@ -54,7 +55,7 @@ public class OtherActivity extends Activity {
         }
     }
 
-    static class AStaticInnnerClass{
+    static class AStaticInnnerClass {
         private String afield;
 
         public String getAfield() {
@@ -67,7 +68,7 @@ public class OtherActivity extends Activity {
     }
 
     @Override
-    public void onLowMemory(){
+    public void onLowMemory() {
         myfield = "b";
         setMyfield(myfield);
     }
@@ -80,7 +81,7 @@ public class OtherActivity extends Activity {
         this.myfield = myfield;
     }
 
-    public String methodUsingInternalgetter(){
+    public String methodUsingInternalgetter() {
         String c = getMyfield();
         c = c + "a";
         return c;

@@ -6,10 +6,9 @@ import android.os.Bundle;
 import com.antipatterns.app.MyBlobClass;
 import com.antipatterns.app.sak.MyLittleSwissArmyKnife;
 
-/**
- * NoLowMemoryResolver should be found here.
- */
+// NLMR
 public class CloneActivity extends Activity {
+
     private String myfield;
 
     @Override
@@ -24,6 +23,10 @@ public class CloneActivity extends Activity {
         anotherActivity.amethod();
         OtherActivity otherActivity = new OtherActivity();
         otherActivity.methodUsingInternalgetter();
+    }
+
+    public void aMethodWithTonsOfParams(int a, int b, int c, int d, int e, int f, int g, int r) {
+        // LPL
     }
 
 }

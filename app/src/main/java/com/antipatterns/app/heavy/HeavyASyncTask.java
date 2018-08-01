@@ -11,97 +11,97 @@ public class HeavyASyncTask extends AsyncTask {
     protected void onPreExecute() {
         String abc = "abc";
         abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("bcqfde"))
+        if (abc.equals("bcqfde"))
             abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("bqfsce"))
+        if (abc.equals("bqfsce"))
             abc = abc + abc;
-        if(abc.equals("bqfdqsce"))
+        if (abc.equals("bqfdqsce"))
             abc = abc + abc;
-        if(abc.equals("bsfqce"))
+        if (abc.equals("bsfqce"))
             abc = abc + abc;
-        if(abc.equals("bfsfce"))
+        if (abc.equals("bfsfce"))
             abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("bqdqdce"))
+        if (abc.equals("bqdqdce"))
             abc = abc + abc;
-        if(abc.equals("bcqsdqe"))
+        if (abc.equals("bcqsdqe"))
             abc = abc + abc;
-        if(abc.equals("bcqde"))
+        if (abc.equals("bcqde"))
             abc = abc + abc;
-        if(abc.equals("bdsf"))
+        if (abc.equals("bdsf"))
             abc = abc + abc;
-        if(abc.equals("aze"))
+        if (abc.equals("aze"))
             abc = abc + abc;
-        if(abc.equals("eae"))
+        if (abc.equals("eae"))
             abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("zae"))
+        if (abc.equals("zae"))
             abc = abc + abc;
-        if(abc.equals("abc"))
+        if (abc.equals("abc"))
             abc = abc + abc;
-        if(abc.equals("bazce"))
+        if (abc.equals("bazce"))
             abc = abc + abc;
-        if(abc.equals("bsdqsdce"))
+        if (abc.equals("bsdqsdce"))
             abc = abc + abc;
-        if(abc.equals("bczaee"))
+        if (abc.equals("bczaee"))
             abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("ce"))
+        if (abc.equals("ce"))
             abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("bz"))
+        if (abc.equals("bz"))
             abc = abc + abc;
-        if(abc.equals("bcza"))
+        if (abc.equals("bcza"))
             abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
@@ -111,97 +111,97 @@ public class HeavyASyncTask extends AsyncTask {
     protected void onProgressUpdate(Object[] values) {
         String abc = "abc";
         abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("bcqfde"))
+        if (abc.equals("bcqfde"))
             abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("bqfsce"))
+        if (abc.equals("bqfsce"))
             abc = abc + abc;
-        if(abc.equals("bqfdqsce"))
+        if (abc.equals("bqfdqsce"))
             abc = abc + abc;
-        if(abc.equals("bsfqce"))
+        if (abc.equals("bsfqce"))
             abc = abc + abc;
-        if(abc.equals("bfsfce"))
+        if (abc.equals("bfsfce"))
             abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("bqdqdce"))
+        if (abc.equals("bqdqdce"))
             abc = abc + abc;
-        if(abc.equals("bcqsdqe"))
+        if (abc.equals("bcqsdqe"))
             abc = abc + abc;
-        if(abc.equals("bcqde"))
+        if (abc.equals("bcqde"))
             abc = abc + abc;
-        if(abc.equals("bdsf"))
+        if (abc.equals("bdsf"))
             abc = abc + abc;
-        if(abc.equals("aze"))
+        if (abc.equals("aze"))
             abc = abc + abc;
-        if(abc.equals("eae"))
+        if (abc.equals("eae"))
             abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("zae"))
+        if (abc.equals("zae"))
             abc = abc + abc;
-        if(abc.equals("abc"))
+        if (abc.equals("abc"))
             abc = abc + abc;
-        if(abc.equals("bazce"))
+        if (abc.equals("bazce"))
             abc = abc + abc;
-        if(abc.equals("bsdqsdce"))
+        if (abc.equals("bsdqsdce"))
             abc = abc + abc;
-        if(abc.equals("bczaee"))
+        if (abc.equals("bczaee"))
             abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("ce"))
+        if (abc.equals("ce"))
             abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("bz"))
+        if (abc.equals("bz"))
             abc = abc + abc;
-        if(abc.equals("bcza"))
+        if (abc.equals("bcza"))
             abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
@@ -211,97 +211,97 @@ public class HeavyASyncTask extends AsyncTask {
     protected void onPostExecute(Object o) {
         String abc = "abc";
         abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("bcqfde"))
+        if (abc.equals("bcqfde"))
             abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("bqfsce"))
+        if (abc.equals("bqfsce"))
             abc = abc + abc;
-        if(abc.equals("bqfdqsce"))
+        if (abc.equals("bqfdqsce"))
             abc = abc + abc;
-        if(abc.equals("bsfqce"))
+        if (abc.equals("bsfqce"))
             abc = abc + abc;
-        if(abc.equals("bfsfce"))
+        if (abc.equals("bfsfce"))
             abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("bqdqdce"))
+        if (abc.equals("bqdqdce"))
             abc = abc + abc;
-        if(abc.equals("bcqsdqe"))
+        if (abc.equals("bcqsdqe"))
             abc = abc + abc;
-        if(abc.equals("bcqde"))
+        if (abc.equals("bcqde"))
             abc = abc + abc;
-        if(abc.equals("bdsf"))
+        if (abc.equals("bdsf"))
             abc = abc + abc;
-        if(abc.equals("aze"))
+        if (abc.equals("aze"))
             abc = abc + abc;
-        if(abc.equals("eae"))
+        if (abc.equals("eae"))
             abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("zae"))
+        if (abc.equals("zae"))
             abc = abc + abc;
-        if(abc.equals("abc"))
+        if (abc.equals("abc"))
             abc = abc + abc;
-        if(abc.equals("bazce"))
+        if (abc.equals("bazce"))
             abc = abc + abc;
-        if(abc.equals("bsdqsdce"))
+        if (abc.equals("bsdqsdce"))
             abc = abc + abc;
-        if(abc.equals("bczaee"))
+        if (abc.equals("bczaee"))
             abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("ce"))
+        if (abc.equals("ce"))
             abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("bz"))
+        if (abc.equals("bz"))
             abc = abc + abc;
-        if(abc.equals("bcza"))
+        if (abc.equals("bcza"))
             abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }

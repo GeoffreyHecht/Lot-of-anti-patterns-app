@@ -10,6 +10,9 @@ import android.os.Build;
 import android.util.LruCache;
 import android.view.View;
 
+import java.io.FileOutputStream;
+import java.io.IOException;
+
 import static android.content.Context.ACTIVITY_SERVICE;
 
 /**
@@ -21,9 +24,7 @@ public class AQuiteGoodView extends View {
         super(context);
     }
 
-    /**
-     * NO UIO
-     */
+    // NO UIO
     @TargetApi(Build.VERSION_CODES.HONEYCOMB_MR1)
     @Override
     public void onDraw(Canvas canvas) {
@@ -40,6 +41,7 @@ public class AQuiteGoodView extends View {
         invalidate(1, 2, 3, 4);
     }
 
+    // NO LRU
     public void correctLRU() {
         ActivityManager activityManager = (ActivityManager) this.getContext().getSystemService(ACTIVITY_SERVICE);
         ActivityManager.MemoryInfo memoryInfo = new ActivityManager.MemoryInfo();
@@ -48,10 +50,18 @@ public class AQuiteGoodView extends View {
         bitmapCache.get("url");
     }
 
+    // NO LRU
     public void anotherCorrectLRU() {
         Runtime.getRuntime().maxMemory();
         LruCache bitmapCache = new LruCache<String, Bitmap>(3);
         bitmapCache.get("url");
+    }
+
+    // NO PD
+    public void noPD() throws IOException {
+        FileOutputStream fos = getContext().openFileOutput("", Context.MODE_PRIVATE);
+        fos.write("".getBytes());
+        fos.close();
     }
 
 }
