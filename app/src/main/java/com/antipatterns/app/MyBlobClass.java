@@ -11,16 +11,6 @@ import com.antipatterns.app.data.ADataClass6;
 import com.antipatterns.app.data.ADataClass7;
 import com.antipatterns.app.data.ADataClass8;
 import com.antipatterns.app.data.ADataClass9;
-import com.antipatterns.app.interfaces.Interface1;
-import com.antipatterns.app.interfaces.Interface2;
-import com.antipatterns.app.interfaces.Interface3;
-import com.antipatterns.app.interfaces.Interface4;
-import com.antipatterns.app.interfaces.Interface5;
-import com.antipatterns.app.interfaces.Interface6;
-import com.antipatterns.app.interfaces.Interface7;
-import com.antipatterns.app.interfaces.Interface8;
-import com.antipatterns.app.sak.AnotherSwissArmyKnife;
-import com.antipatterns.app.sak.MyLittleSwissArmyKnife;
 import com.antipatterns.app.sak.MySwissArmyKnife;
 
 /**
@@ -45,7 +35,6 @@ public class MyBlobClass {
 
     public String averyComplexandLongMethod() {
         String abc = "abc";
-        mySwissArmyKnife = new MySwissArmyKnife();
         abc = abc + abc;
         if (abc.equals("bcqfqe")) {
             abc = abc + abc;
@@ -141,15 +130,6 @@ public class MyBlobClass {
                 abc = "rgf";
             }
         }
-        mySwissArmyKnife.aMethod(abc);
-        mySwissArmyKnife.method1();
-        mySwissArmyKnife.method2();
-        mySwissArmyKnife.method3();
-        mySwissArmyKnife.method4();
-        mySwissArmyKnife.method5();
-        mySwissArmyKnife.method6();
-        mySwissArmyKnife.method7();
-        mySwissArmyKnife.method8();
         aBadMethod1();
         aBadMethod2();
         aBadMethod3();
@@ -188,22 +168,6 @@ public class MyBlobClass {
         complexClass.averyComplexandLongMethod();
         complexClass.theSameVeryComplexandLongMethod();
         complexClass.whileVeryComplexandLongMethod();
-        Interface1 inter = new MyLittleSwissArmyKnife();
-        inter.method1();
-        Interface2 inter2 = new MyLittleSwissArmyKnife();
-        inter2.method2();
-        Interface3 inter3 = new MyLittleSwissArmyKnife();
-        inter3.method3();
-        Interface4 inter4 = new MyLittleSwissArmyKnife();
-        inter4.method4();
-        Interface5 inter5 = new MyLittleSwissArmyKnife();
-        inter5.method5();
-        Interface6 inter6 = new MySwissArmyKnife();
-        inter6.method6();
-        Interface7 inter7 = new MySwissArmyKnife();
-        inter7.method7();
-        Interface8 inter8 = new MySwissArmyKnife();
-        inter8.method8();
         AActivity AActivity = new AActivity();
         ABigClass aBigClass = new ABigClass();
         aBigClass.setAttr1(abc);
@@ -234,11 +198,6 @@ public class MyBlobClass {
         abc += aBigClass.getAttr12();
         abc += aBigClass.getAttr13();
         abc += aBigClass.getAttr14();
-        AnotherSwissArmyKnife anotherSwissArmyKnife = new AnotherSwissArmyKnife();
-        anotherSwissArmyKnife.method1();
-        anotherSwissArmyKnife.method2();
-        anotherSwissArmyKnife.method3();
-        anotherSwissArmyKnife.method4();
         CC cc = new CC();
         abc += cc.averyComplexandLongMethod();
         return abc;

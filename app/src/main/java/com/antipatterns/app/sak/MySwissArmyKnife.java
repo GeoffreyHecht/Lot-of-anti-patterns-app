@@ -1,74 +1,28 @@
 package com.antipatterns.app.sak;
 
-import com.antipatterns.app.interfaces.Interface1;
-import com.antipatterns.app.interfaces.Interface2;
-import com.antipatterns.app.interfaces.Interface3;
-import com.antipatterns.app.interfaces.Interface4;
-import com.antipatterns.app.interfaces.Interface5;
-import com.antipatterns.app.interfaces.Interface6;
-import com.antipatterns.app.interfaces.Interface7;
-import com.antipatterns.app.interfaces.Interface8;
-
 /**
  * Created by geoffrey on 10/11/14.
  */
-public class MySwissArmyKnife implements Interface1, Interface2, Interface3, Interface4, Interface5, Interface6, Interface7, Interface8 {
-    public String aMethod(String arg) {
-        arg = arg + "a";
-        return arg;
-    }
+public interface MySwissArmyKnife {
 
-    @Override
-    public String method1() {
-        return aMethod("agfggbsd");
-    }
+    void method1();
 
-    @Override
-    public String method2() {
-        return aMethod("asfbsd");
-    }
+    void method2();
 
-    @Override
-    public String method3() {
-        return aMethod("abbsd");
-    }
+    void method3();
 
-    @Override
-    public String method4() {
-        return aMethod("abazesd");
-    }
+    void method4();
 
-    @Override
-    public String method5() {
-        return aMethod("agfbsd");
-    }
+    void method5();
 
-    @Override
-    public String method6() {
-        return aMethod("absfdqd");
-    }
+    void method6();
 
-    @Override
-    public String method7() {
-        return aMethod("abssdd");
-    }
+    void method7();
 
-    @Override
-    public String method8() {
-        AnotherInnnerClass anotherInnnerClass = new AnotherInnnerClass();
-        anotherInnnerClass.setAfield(anotherInnnerClass.getAfield() + "a");
-        return aMethod("absdqs");
-    }
+    void method8();
 
-    class AnotherInnnerClass {
-        private String afield;
+    void method9();
 
-        public String getAfield() {
-            return afield;
-        }
+    void method10();
 
-        public void setAfield(String afield) {
-            this.afield = afield;
-        }
-    }
 }
