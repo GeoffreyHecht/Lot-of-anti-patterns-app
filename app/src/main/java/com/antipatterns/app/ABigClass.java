@@ -20,7 +20,7 @@ public class ABigClass {
     private String attr12;
     private String attr13;
     private String attr14;
-    private HashMap<Object,String> hashMap = new HashMap<Object, String>();
+    private HashMap<Object, String> hashMap = new HashMap<Object, String>();
 
     public String getAttr1() {
         return attr1;

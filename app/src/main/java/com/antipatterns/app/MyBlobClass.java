@@ -1,6 +1,17 @@
 package com.antipatterns.app;
 
-import android.os.Bundle;
+import com.antipatterns.app.activities.AActivity;
+import com.antipatterns.app.data.ADataClass1;
+import com.antipatterns.app.data.ADataClass10;
+import com.antipatterns.app.data.ADataClass2;
+import com.antipatterns.app.data.ADataClass3;
+import com.antipatterns.app.data.ADataClass4;
+import com.antipatterns.app.data.ADataClass5;
+import com.antipatterns.app.data.ADataClass6;
+import com.antipatterns.app.data.ADataClass7;
+import com.antipatterns.app.data.ADataClass8;
+import com.antipatterns.app.data.ADataClass9;
+import com.antipatterns.app.sak.MySwissArmyKnife;
 
 /**
  * Created by geoffrey on 10/11/14.
@@ -22,113 +33,103 @@ public class MyBlobClass {
     private String attr13;
     private String attr14;
 
-    public String averyComplexandLongMethod(){
+    public String averyComplexandLongMethod() {
         String abc = "abc";
-        mySwissArmyKnife = new MySwissArmyKnife();
         abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfqe")) {
             abc = abc + abc;
-            if(abc.equals("udf")){
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("bcqfde"))
-        abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bcqfde"))
             abc = abc + abc;
-            if(abc.equals("udf")){
+        if (abc.equals("bcqfqe")) {
+            abc = abc + abc;
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("bqfsce"))
-        abc = abc + abc;
-        if(abc.equals("bqfdqsce"))
-        abc = abc + abc;
-        if(abc.equals("bsfqce"))
-        abc = abc + abc;
-        if(abc.equals("bfsfce"))
-        abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bqfsce"))
             abc = abc + abc;
-            if(abc.equals("udf")){
+        if (abc.equals("bqfdqsce"))
+            abc = abc + abc;
+        if (abc.equals("bsfqce"))
+            abc = abc + abc;
+        if (abc.equals("bfsfce"))
+            abc = abc + abc;
+        if (abc.equals("bcqfqe")) {
+            abc = abc + abc;
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("bqdqdce"))
-        abc = abc + abc;
-        if(abc.equals("bcqsdqe"))
-        abc = abc + abc;
-        if(abc.equals("bcqde"))
-        abc = abc + abc;
-        if(abc.equals("bdsf"))
-        abc = abc + abc;
-        if(abc.equals("aze"))
-        abc = abc + abc;
-        if(abc.equals("eae"))
-        abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bqdqdce"))
             abc = abc + abc;
-            if(abc.equals("udf")){
+        if (abc.equals("bcqsdqe"))
+            abc = abc + abc;
+        if (abc.equals("bcqde"))
+            abc = abc + abc;
+        if (abc.equals("bdsf"))
+            abc = abc + abc;
+        if (abc.equals("aze"))
+            abc = abc + abc;
+        if (abc.equals("eae"))
+            abc = abc + abc;
+        if (abc.equals("bcqfqe")) {
+            abc = abc + abc;
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("zae"))
-        abc = abc + abc;
-        if(abc.equals("abc"))
-        abc = abc + abc;
-        if(abc.equals("bazce"))
-        abc = abc + abc;
-        if(abc.equals("bsdqsdce"))
-        abc = abc + abc;
-        if(abc.equals("bczaee"))
-        abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("zae"))
             abc = abc + abc;
-            if(abc.equals("udf")){
+        if (abc.equals("abc"))
+            abc = abc + abc;
+        if (abc.equals("bazce"))
+            abc = abc + abc;
+        if (abc.equals("bsdqsdce"))
+            abc = abc + abc;
+        if (abc.equals("bczaee"))
+            abc = abc + abc;
+        if (abc.equals("bcqfqe")) {
+            abc = abc + abc;
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("ce"))
-        abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("ce"))
             abc = abc + abc;
-            if(abc.equals("udf")){
+        if (abc.equals("bcqfqe")) {
+            abc = abc + abc;
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        if(abc.equals("bz"))
-        abc = abc + abc;
-        if(abc.equals("bcza"))
-        abc = abc + abc;
-        if(abc.equals("bcqfqe")){
+        if (abc.equals("bz"))
             abc = abc + abc;
-            if(abc.equals("udf")){
+        if (abc.equals("bcza"))
+            abc = abc + abc;
+        if (abc.equals("bcqfqe")) {
+            abc = abc + abc;
+            if (abc.equals("udf")) {
                 abc = "erg";
-            }else{
+            } else {
                 abc = "rgf";
             }
         }
-        mySwissArmyKnife.aMethod(abc);
-        mySwissArmyKnife.method1();
-        mySwissArmyKnife.method2();
-        mySwissArmyKnife.method3();
-        mySwissArmyKnife.method4();
-        mySwissArmyKnife.method5();
-        mySwissArmyKnife.method6();
-        mySwissArmyKnife.method7();
-        mySwissArmyKnife.method8();
         aBadMethod1();
         aBadMethod2();
         aBadMethod3();
@@ -167,24 +168,7 @@ public class MyBlobClass {
         complexClass.averyComplexandLongMethod();
         complexClass.theSameVeryComplexandLongMethod();
         complexClass.whileVeryComplexandLongMethod();
-        Interface1 inter = new MyLittleSwissArmyKnife();
-        inter.method1();
-        Interface2 inter2 = new MyLittleSwissArmyKnife();
-        inter2.method2();
-        Interface3 inter3 = new MyLittleSwissArmyKnife();
-        inter3.method3();
-        Interface4 inter4 = new MyLittleSwissArmyKnife();
-        inter4.method4();
-        Interface5 inter5 = new MyLittleSwissArmyKnife();
-        inter5.method5();
-        Interface6 inter6 = new MySwissArmyKnife();
-        inter6.method6();
-        Interface7 inter7 = new MySwissArmyKnife();
-        inter7.method7();
-        Interface8 inter8 = new MySwissArmyKnife();
-        inter8.method8();
         AActivity AActivity = new AActivity();
-        AActivity.onCreate(new Bundle());
         ABigClass aBigClass = new ABigClass();
         aBigClass.setAttr1(abc);
         aBigClass.setAttr2(abc);
@@ -214,132 +198,145 @@ public class MyBlobClass {
         abc += aBigClass.getAttr12();
         abc += aBigClass.getAttr13();
         abc += aBigClass.getAttr14();
-        AnotherSwissArmyKnife anotherSwissArmyKnife = new AnotherSwissArmyKnife();
-        anotherSwissArmyKnife.method1();
-        anotherSwissArmyKnife.method2();
-        anotherSwissArmyKnife.method3();
-        anotherSwissArmyKnife.method4();
         CC cc = new CC();
         abc += cc.averyComplexandLongMethod();
         return abc;
     }
 
-    public String aBadMethod1(){
+    public String aBadMethod1() {
         ADataClass1 aDataClass = new ADataClass1();
         aDataClass.setMyData("abc");
         aDataClass.setMyData2("abc");
         return aDataClass.getMyData();
     }
-    public String aBadMethod2(){
+
+    public String aBadMethod2() {
         ADataClass2 aDataClass = new ADataClass2();
         aDataClass.setMyData("abc");
         aDataClass.setMyData2("abc");
         return aDataClass.getMyData();
     }
-    public String aBadMethod3(){
+
+    public String aBadMethod3() {
         ADataClass3 aDataClass = new ADataClass3();
         aDataClass.setMyData("abc");
         aDataClass.setMyData2("abc");
         return aDataClass.getMyData();
     }
-    public String aBadMethod4(){
+
+    public String aBadMethod4() {
         ADataClass4 aDataClass = new ADataClass4();
         aDataClass.setMyData("abc");
         aDataClass.setMyData2("abc");
         return aDataClass.getMyData();
     }
-    public String aBadMethod5(){
+
+    public String aBadMethod5() {
         ADataClass5 aDataClass = new ADataClass5();
         aDataClass.setMyData("abc");
         aDataClass.setMyData2("abc");
         return aDataClass.getMyData();
     }
-    public String aBadMethod6(){
+
+    public String aBadMethod6() {
         ADataClass6 aDataClass = new ADataClass6();
         aDataClass.setMyData("abc");
         aDataClass.setMyData2("abc");
         return aDataClass.getMyData();
     }
-    public String aBadMethod7(){
+
+    public String aBadMethod7() {
         ADataClass7 aDataClass = new ADataClass7();
         aDataClass.setMyData("abc");
         aDataClass.setMyData2("abc");
         return aDataClass.getMyData();
     }
-    public String aBadMethod8(){
+
+    public String aBadMethod8() {
         ADataClass8 aDataClass = new ADataClass8();
         aDataClass.setMyData("abc");
         aDataClass.setMyData2("abc");
         return aDataClass.getMyData();
     }
-    public String aBadMethod9(){
+
+    public String aBadMethod9() {
         ADataClass9 aDataClass = new ADataClass9();
         aDataClass.setMyData("abc");
         aDataClass.setMyData2("abc");
         return aDataClass.getMyData();
     }
-    public String aBadMethod10(){
+
+    public String aBadMethod10() {
         ADataClass10 aDataClass = new ADataClass10();
         aDataClass.setMyData("abc");
         aDataClass.setMyData2("abc");
         return aDataClass.getMyData();
     }
 
-    public String aaBadMethod1(){
+    public String aaBadMethod1() {
         ADataClass1 aDataClass = new ADataClass1();
         aDataClass.setMyData("abc");
         aDataClass.setMyData2("abc");
         return aDataClass.getMyData2();
     }
-    public String aaBadMethod2(){
+
+    public String aaBadMethod2() {
         ADataClass2 aDataClass = new ADataClass2();
         aDataClass.setMyData("abc");
         aDataClass.setMyData2("abc");
         return aDataClass.getMyData2();
     }
-    public String aaBadMethod3(){
+
+    public String aaBadMethod3() {
         ADataClass3 aDataClass = new ADataClass3();
         aDataClass.setMyData("abc");
         aDataClass.setMyData2("abc");
         return aDataClass.getMyData2();
     }
-    public String aaBadMethod4(){
+
+    public String aaBadMethod4() {
         ADataClass4 aDataClass = new ADataClass4();
         aDataClass.setMyData("abc");
         aDataClass.setMyData2("abc");
         return aDataClass.getMyData2();
     }
-    public String aaBadMethod5(){
+
+    public String aaBadMethod5() {
         ADataClass5 aDataClass = new ADataClass5();
         aDataClass.setMyData("abc");
         aDataClass.setMyData2("abc");
         return aDataClass.getMyData2();
     }
-    public String aaBadMethod6(){
+
+    public String aaBadMethod6() {
         ADataClass6 aDataClass = new ADataClass6();
         aDataClass.setMyData("abc");
         aDataClass.setMyData2("abc");
         return aDataClass.getMyData2();
     }
-    public String aaBadMethod7(){
+
+    public String aaBadMethod7() {
         ADataClass7 aDataClass = new ADataClass7();
         aDataClass.setMyData("abc");
         aDataClass.setMyData2("abc");
         return aDataClass.getMyData2();
     }
-    public String aaBadMethod8(){
+
+    public String aaBadMethod8() {
         ADataClass8 aDataClass = new ADataClass8();
         aDataClass.setMyData("abc");
         aDataClass.setMyData2("abc");
         return aDataClass.getMyData2();
     }
-    public String aaBadMethod9(){
+
+    public String aaBadMethod9() {
         ADataClass9 aDataClass = new ADataClass9();
         aDataClass.setMyData("abc");
         aDataClass.setMyData2("abc");
         return aDataClass.getMyData2();
     }
-    public String aaBadMethod10(){
+
+    public String aaBadMethod10() {
         ADataClass10 aDataClass = new ADataClass10();
         aDataClass.setMyData("abc");
         aDataClass.setMyData2("abc");
